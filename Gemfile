@@ -33,8 +33,7 @@ gem "font-awesome-sass", "~> 6.1"
 gem "simple_form"
 gem "sassc-rails"
 
-#picture
-gem 'cloudinary', "1.16.0"
+
 
 
 
@@ -78,3 +77,6 @@ end
 
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
+
+#picture
+gem 'cloudinary', "1.16.0"
