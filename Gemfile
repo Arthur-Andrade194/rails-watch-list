@@ -36,7 +36,7 @@ gem "sassc-rails"
 #picture
 gem "dotenv-rails", groups: [:development, :test]
 
-gem "cloudinary"
+gem 'cloudinary', '~> 1.2', '>= 1.2.2'
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
