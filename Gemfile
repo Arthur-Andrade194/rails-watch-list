@@ -34,7 +34,7 @@ gem "simple_form"
 gem "sassc-rails"
 
 #picture
-gem "dotenv-rails", groups: [:development, :test]
+
 
 gem 'cloudinary', '~> 1.2', '>= 1.2.2'
 
@@ -65,6 +65,7 @@ group :development, :test do
 end
 
 group :development do
+gem "dotenv-rails", groups: [:development, :test]
   # Use console on exceptions pages [https://github.com/rails/web-console]
   gem "web-console"
 
