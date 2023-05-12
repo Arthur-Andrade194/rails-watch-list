@@ -73,9 +73,9 @@ GEM
     bootsnap (1.16.0)
       msgpack (~> 1.2)
     builder (3.2.4)
-    cloudinary (1.25.0)
+    cloudinary (1.16.0)
       aws_cf_signer
-      rest-client (>= 2.0.0)
+      rest-client
     concurrent-ruby (1.2.2)
     crass (1.0.6)
     date (3.3.3)
@@ -137,8 +137,6 @@ GEM
     netrc (0.11.0)
     nio4r (2.5.9)
     nokogiri (1.14.4-arm64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.14.4-x86_64-linux)
       racc (~> 1.4)
     pg (1.5.3)
     puma (5.6.5)
@@ -246,12 +244,11 @@ GEM
 
 PLATFORMS
   arm64-darwin-22
-  x86_64-linux
 
 DEPENDENCIES
   autoprefixer-rails
   bootsnap
-  cloudinary
+  cloudinary (= 1.16.0)
   debug
   dotenv-rails
   font-awesome-sass (~> 6.1)

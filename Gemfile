@@ -34,7 +34,7 @@ gem "simple_form"
 gem "sassc-rails"
 
 #picture
-gem 'cloudinary'
+gem 'cloudinary', "1.16.0"
 
 
 
