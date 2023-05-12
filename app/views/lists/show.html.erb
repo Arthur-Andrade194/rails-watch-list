@@ -1,8 +1,11 @@
 
-
 <div class="container">
-  <h1 class="mb-4"><%= @list.name %></h1>
+  <div class="item card-category" style=" height: 200px; background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= @list.photo.attached? ? cl_image_path(@list.photo.key) : 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPQDYau3Hs4-xw1i8jVSUY4BlF4FLmg8lQqg&usqp=CAU' %>)">
+    <h1 class="mb-4"><%= @list.name %></h1>
+  </div>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+
     <% @list.movies.each do |movie| %>
       <div class="col">
         <div class="card">
